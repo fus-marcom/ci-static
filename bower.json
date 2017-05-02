@@ -1,0 +1,22 @@
+{
+  "name": "fus-starter-template",
+  "description": "Starter template for a one page static html site using Materialize and customized with Franciscan University of Steubenville branding.",
+  "main": "index.html",
+  "authors": [
+    "Jesse Weigel"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JesseRWeigel/fus-starter-template",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fetch": "^1.0.0",
+    "es6-promise": "^3.2.2"
+  }
+}

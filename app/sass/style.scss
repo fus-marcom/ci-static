@@ -1,0 +1,414 @@
+// Colors
+$fus-yellow: #ffc658;
+$fus-light-blue: #8e9fbc;
+$fus-dark-blue: #1f2a44;
+$fus-green: #21412a;
+$fus-gold: #998643;
+
+.fus-yellow {
+  background-color: $fus-yellow;
+}
+.fus-light-blue {
+  background-color: $fus-light-blue;
+}
+.fus-dark-blue {
+  background-color: $fus-dark-blue;
+}
+.fus-green {
+  background-color: $fus-green;
+}
+.fus-gold {
+  background-color: $fus-gold;
+}
+
+.block-center {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fafafa;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+
+ main {
+   flex: 1 0 auto;
+   min-height: 100vh;
+
+  //  .container.w90 {
+  //    width: 90%;
+  //  }
+ }
+
+header {
+  height: 122px;
+  margin-bottom: -48px;
+}
+
+nav {
+  height: 83px;
+  background-color: transparent !important;
+  .page-title {
+    line-height: 64px;
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  .button-collapse {
+    margin-left: 16px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 8px;
+  }
+
+  .brand-logo {
+    margin-left: 64px;
+    margin-top: 16px;
+
+    img {
+      height: 100px;
+    }
+  }
+
+  .social {
+    height: 40px;
+    position: absolute;
+    right: 120px;
+
+    a {
+      svg {
+        // SVG Icon Color
+        fill: $fus-green;
+        // SVG Icon Size
+        width: 30px;
+      }
+    }
+  }
+
+  .button {
+    position: fixed;
+    right: 16px;
+    top: 6px;
+    background: $fus-green;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+    &:hover {
+      background: $fus-green;
+    }
+  }
+
+  ul {
+    margin-right: 16px;
+
+    li {
+      line-height: 48px;
+      height: 48px;
+      margin-top: 40px;
+
+      a {
+        color: #000;
+        line-height: 36px;
+      }
+    }
+  }
+
+  .search-icon {
+    float: left;
+    svg {
+      cursor: pointer;
+      width: 27px;
+      fill: #21412a;
+      padding: 4px 8px;
+      box-sizing: content-box;
+    }
+  }
+
+  #search-input {
+    float: left;
+    input {
+      color: rgba(0, 0, 0, 0.54);
+      display: block;
+      font-size: 16px;
+      height: 30px;
+      transition: .2s cubic-bezier(.4,0,.2,1);
+      width: 0;
+    }
+
+    svg {
+      display: none;
+      position: absolute;
+      top: 45px;
+      right: 18px;
+    }
+
+
+  }
+
+  #search-input.open {
+    input {
+      width: 250px;
+    }
+
+    svg {
+      display: block;
+
+    }
+  }
+}
+
+.side-nav {
+  max-width: 85%;
+  z-index: 998;
+
+  .brand-logo {
+    margin-left: 0;
+  }
+
+  .logo {
+  height: 110px;
+
+    a {
+      padding: 10px 10px 0px 10px;
+      width: 100%;
+
+      &:hover {
+        background-color: #fff;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .search {
+    margin: 0 8px;
+
+    input {
+      margin-left: 8px;
+      margin-right: 8px;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      width: 100%;
+      display: block;
+      height: 45px;
+
+      &:focus {
+        border-bottom: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .search-icon {
+    svg {
+      cursor: pointer;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 27px;
+      fill: #21412a;
+    }
+  }
+
+  li {
+    line-height: 48px;
+    margin-top: 0;
+  }
+
+  .collapsible-body {
+    li {
+      a {
+        padding: 0 23.5px 0 44px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+// Offset for fixed side-nav
+// header, main, footer {
+//   padding-left: 300px;
+// }
+//
+// @media only screen and (max-width : 992px) {
+//   header, main, footer {
+//     padding-left: 0;
+//   }
+// }
+
+#hero {
+  min-height: 80vh;
+  background-image: url("../img/Monstrance-2000w.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 80vw;
+  background-repeat: no-repeat;
+  background-position-x: 183%;
+  background-position-y: 36%;
+  background-color: #000;
+  margin-top: -74px;
+
+  @media screen and (max-width: 1200px) {
+    background-image: url("../img/Monstrance-2000w.png");
+  }
+
+  @media screen and (max-width: 600px) {
+    background-image: url("../img/Monstrance-2000w.png");
+  }
+
+  @media screen and (max-width: 500px) {
+    background-image: url("../img/Monstrance-2000w.png");
+    background-position: center;
+  }
+
+  h1 {
+    font-family: 'Parisienne', cursive;
+  }
+}
+
+.bottom-nav {
+  text-align: center;
+  background-color: #8e1b21;
+  padding: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  ul {
+    display: inline-block;
+    li {
+      float: left;
+      padding: 4px 16px;
+      line-height: 8px;
+
+      a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.white-background-flourish {
+    background-image: url("../img/motif1.png"), url("../img/motif1-reverse.png");
+    background-repeat: no-repeat;
+    background-position: -10% 50%, 111% 50%;
+}
+
+.red-background-flourish {
+  background-color: #a61f26;
+  background-image: url("../img/motif2.png"), url("../img/motif2-reverse.png");
+  background-repeat: repeat-y;
+  background-position: 0% 50%, 100% 50%;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 0;
+  margin-left: 8px;
+  width: 75px;
+
+  i {
+    color: #fff;
+    font-size: 48px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 48px;
+    transform: rotate(90deg);
+  }
+}
+
+.scroll-to-top.slide-out {
+  transform: translateY(200%);
+  transition: transform 500ms ease-in-out;
+}
+
+.scroll-to-top.slide-in {
+  transform: translateY(0);
+  transition: transform 500ms ease-in-out;
+
+}
+
+.preloader-wrapper.big {
+  margin: 50px auto;
+  display: block;
+}
+
+.material-tooltip {
+  @media screen and (max-width: 992px) {
+    visibility: hidden;
+  }
+}
+
+.modal.bottom-sheet {
+  max-height: 80%;
+}
+
+// Preloader
+.preloader-wrapper.big {
+  .spinner-blue {
+    border-color: $fus-dark-blue;
+  }
+
+  .spinner-yellow {
+    border-color: $fus-light-blue;
+  }
+
+  .spinner-red {
+    border-color: $fus-green;
+  }
+
+  .spinner-green {
+    border-color: $fus-yellow;
+  }
+}
+
+footer.page-footer {
+  margin-top: 0px;
+  padding-top: 20px;
+background-color: #8e1b21; }
+  footer.page-footer .row {
+    margin-bottom: 0px;
+    margin-top: 10px; }
+
+.footer-copyright a {
+  margin-right: 10px; }
+
+footer {
+  margin-top: 0px;
+  padding-top: 0px;
+
+  .row {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+}
+
+.social {
+  a {
+    svg {
+      // SVG Icon Color
+      fill: #fff;
+      // SVG Icon Size
+      width: 42px;
+    }
+  }
+}
+
+.footer-copyright {
+  a {
+    margin-right: 10px;
+  }
+}
