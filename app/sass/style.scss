@@ -45,13 +45,12 @@ body {
  }
 
 header {
-  height: 122px;
   margin-bottom: -48px;
 }
 
 nav {
   height: 83px;
-  background-color: transparent !important;
+  background-color: transparent;
   .page-title {
     line-height: 64px;
     font-size: 40px;
@@ -162,6 +161,30 @@ nav {
     svg {
       display: block;
 
+    }
+  }
+}
+
+.interior {
+  margin-bottom: 0;
+  nav {
+    background-color: #000;
+    height: 88px;
+    background-image: url("../img/Monstrance-2000w.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    background-position-x: 183%;
+    background-position-y: 36%;
+    background-color: #000;
+
+
+    .brand-logo {
+      margin-top: 8px;
+      img {
+        height: 70px;
+      }
     }
   }
 }
@@ -301,9 +324,9 @@ nav {
 }
 
 .white-background-flourish {
-    background-image: url("../img/motif1.png"), url("../img/motif1-reverse.png");
-    background-repeat: no-repeat;
-    background-position: -10% 50%, 111% 50%;
+  background-image: url("../img/motif1.png"), url("../img/motif1-reverse.png");
+  background-repeat: no-repeat;
+  background-position: -10% 50%, 111% 50%;
 }
 
 .red-background-flourish {
@@ -312,6 +335,28 @@ nav {
   background-repeat: repeat-y;
   background-position: 0% 50%, 100% 50%;
 }
+
+// .flourish-white {
+//   &:before {
+//     width: 16px;
+//     content: " ";
+//     background-image: url("../img/squiggly3-reverse.png");
+//     position: absolute;
+//     left: -16px;
+//     top: -6px;
+//     height:20px;
+//   }
+//
+//   &:after {
+//     width: 16px;
+//     content: " ";
+//     background-image: url("../img/squiggly3.png");
+//     position: absolute;
+//     left: -16px;
+//     top: -6px;
+//     height:20px;
+//   }
+// }
 
 .scroll-to-top {
   position: fixed;

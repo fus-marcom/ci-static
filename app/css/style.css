@@ -30,12 +30,11 @@ main {
   min-height: 100vh; }
 
 header {
-  height: 122px;
   margin-bottom: -48px; }
 
 nav {
   height: 83px;
-  background-color: transparent !important; }
+  background-color: transparent; }
   nav .page-title {
     line-height: 64px;
     font-size: 40px;
@@ -105,6 +104,24 @@ nav {
     width: 250px; }
   nav #search-input.open svg {
     display: block; }
+
+.interior {
+  margin-bottom: 0; }
+  .interior nav {
+    background-color: #000;
+    height: 88px;
+    background-image: url("../img/Monstrance-2000w.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    background-position-x: 183%;
+    background-position-y: 36%;
+    background-color: #000; }
+    .interior nav .brand-logo {
+      margin-top: 8px; }
+      .interior nav .brand-logo img {
+        height: 70px; }
 
 .side-nav {
   max-width: 85%;
