@@ -111,13 +111,10 @@ nav {
     background-color: #000;
     height: 88px;
     background-image: url("../img/Monstrance-2000w.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-size: 80vw;
+    background-size: 30vw;
     background-repeat: no-repeat;
-    background-position-x: 183%;
-    background-position-y: 36%;
-    background-color: #000; }
+    background-position-x: right;
+    background-position-y: 46%; }
     .interior nav .brand-logo {
       margin-top: 8px; }
       .interior nav .brand-logo img {

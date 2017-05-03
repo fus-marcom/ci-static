@@ -4,6 +4,8 @@ $fus-light-blue: #8e9fbc;
 $fus-dark-blue: #1f2a44;
 $fus-green: #21412a;
 $fus-gold: #998643;
+$ci-dark-red: #8e1b21;
+$ci-red: #a61f26;
 
 .fus-yellow {
   background-color: $fus-yellow;
@@ -171,14 +173,10 @@ nav {
     background-color: #000;
     height: 88px;
     background-image: url("../img/Monstrance-2000w.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-size: 80vw;
+    background-size: 30vw;
     background-repeat: no-repeat;
-    background-position-x: 183%;
-    background-position-y: 36%;
-    background-color: #000;
-
+    background-position-x: right;
+    background-position-y: 46%;
 
     .brand-logo {
       margin-top: 8px;
@@ -304,7 +302,7 @@ nav {
 
 .bottom-nav {
   text-align: center;
-  background-color: #8e1b21;
+  background-color: $ci-dark-red;
   padding: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   ul {
@@ -330,7 +328,7 @@ nav {
 }
 
 .red-background-flourish {
-  background-color: #a61f26;
+  background-color: $ci-red;
   background-image: url("../img/motif2.png"), url("../img/motif2-reverse.png");
   background-repeat: repeat-y;
   background-position: 0% 50%, 100% 50%;
@@ -423,7 +421,7 @@ nav {
 footer.page-footer {
   margin-top: 0px;
   padding-top: 20px;
-background-color: #8e1b21; }
+background-color: $ci-dark-red; }
   footer.page-footer .row {
     margin-bottom: 0px;
     margin-top: 10px; }
