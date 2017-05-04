@@ -48,11 +48,27 @@ body {
 
 header {
   margin-bottom: -48px;
+
+  @media screen and (max-width: 600px) , screen and (max-height: 650px) {
+    margin-bottom: 0;
+  }
 }
 
 nav {
   height: 83px;
   background-color: transparent;
+
+  @media screen and (max-width: 600px) , screen and (max-height: 650px) {
+    margin-bottom: 0;
+    background-color: #000;
+    height: 88px;
+    background-image: url("../img/Monstrance-2000w.png");
+    background-size: 30vw;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 46%;
+    border-bottom: 4px solid $ci-dark-red;
+  }
   .page-title {
     line-height: 64px;
     font-size: 40px;
@@ -74,8 +90,16 @@ nav {
       margin-left: 0;
     }
 
+    @media screen and (max-width: 600px) , screen and (max-height: 650px) {
+      margin-top: 8px;
+    }
+
     img {
       height: 100px;
+
+      @media screen and (max-width: 600px) , screen and (max-height: 650px) {
+        height: 70px;
+      }
     }
   }
 
@@ -289,18 +313,18 @@ nav {
   background-position-y: 36%;
   background-color: #000;
   margin-top: -74px;
+  padding-bottom: 0;
 
   @media screen and (max-width: 1200px) {
     background-image: url("../img/Monstrance-2000w.png");
   }
 
-  @media screen and (max-width: 600px) {
-    background-image: url("../img/Monstrance-2000w.png");
+  @media screen and (max-width: 600px), screen and (max-height: 650px) {
+    display: none;
   }
 
-  @media screen and (max-width: 500px) {
-    background-image: url("../img/Monstrance-2000w.png");
-    background-position: center;
+  .row {
+    margin-bottom: 0;
   }
 
   h1 {
