@@ -193,7 +193,6 @@ nav {
   min-height: 80vh;
   background-image: url("../img/Monstrance-2000w.png");
   background-attachment: fixed;
-  background-size: cover;
   background-size: 80vw;
   background-repeat: no-repeat;
   background-position-x: 183%;
@@ -227,6 +226,14 @@ nav {
         color: #fff;
         text-transform: uppercase;
         font-size: 20px; }
+
+#san-damiano {
+  background-image: url("../img/san-damiano.gif");
+  background-attachment: fixed;
+  background-size: 50vw;
+  background-repeat: no-repeat;
+  background-position-x: -12%;
+  background-position-y: 12%; }
 
 .white-background-flourish {
   background-image: url("../img/motif1.png"), url("../img/motif1-reverse.png");

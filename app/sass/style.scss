@@ -302,11 +302,11 @@ nav {
 //   }
 // }
 
+// Home page hero section
 #hero {
   min-height: 80vh;
   background-image: url("../img/Monstrance-2000w.png");
   background-attachment: fixed;
-  background-size: cover;
   background-size: 80vw;
   background-repeat: no-repeat;
   background-position-x: 183%;
@@ -351,6 +351,16 @@ nav {
       }
     }
   }
+}
+
+//Section with black background and parallax San Damiano image
+#san-damiano {
+  background-image: url("../img/san-damiano.gif");
+  background-attachment: fixed;
+  background-size: 50vw;
+  background-repeat: no-repeat;
+  background-position-x: -12%;
+  background-position-y: 12%;
 }
 
 .white-background-flourish {
@@ -453,7 +463,8 @@ nav {
 footer.page-footer {
   margin-top: 0px;
   padding-top: 20px;
-background-color: $ci-dark-red; }
+  background-color: $ci-dark-red; }
+
   footer.page-footer .row {
     margin-bottom: 0px;
     margin-top: 10px; }
