@@ -279,6 +279,9 @@ nav {
 .modal.bottom-sheet {
   max-height: 80%; }
 
+.fixed-action-btn {
+  visibility: hidden; }
+
 .preloader-wrapper.big .spinner-blue {
   border-color: #1f2a44; }
 

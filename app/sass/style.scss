@@ -441,6 +441,11 @@ nav {
   max-height: 80%;
 }
 
+// Hide the FAB for now
+.fixed-action-btn {
+  visibility: hidden;
+}
+
 // Preloader
 .preloader-wrapper.big {
   .spinner-blue {
