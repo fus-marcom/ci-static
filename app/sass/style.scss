@@ -70,6 +70,10 @@ nav {
     margin-left: 64px;
     margin-top: 16px;
 
+    @media screen and (max-width: 992px) {
+      margin-left: 0;
+    }
+
     img {
       height: 100px;
     }

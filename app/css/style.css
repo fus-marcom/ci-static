@@ -47,6 +47,9 @@ nav {
   nav .brand-logo {
     margin-left: 64px;
     margin-top: 16px; }
+    @media screen and (max-width: 992px) {
+      nav .brand-logo {
+        margin-left: 0; } }
     nav .brand-logo img {
       height: 100px; }
   nav .social {
