@@ -118,6 +118,9 @@ nav {
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 46%; }
+    @media screen and (max-width: 992px) {
+      .interior nav {
+        border-bottom: 4px solid #8e1b21; } }
     .interior nav .brand-logo {
       margin-top: 8px; }
       .interior nav .brand-logo img {

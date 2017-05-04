@@ -182,6 +182,10 @@ nav {
     background-position-x: right;
     background-position-y: 46%;
 
+    @media screen and (max-width: 992px) {
+      border-bottom: 4px solid $ci-dark-red;
+    }
+
     .brand-logo {
       margin-top: 8px;
       img {
