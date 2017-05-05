@@ -306,7 +306,6 @@ nav {
 #hero {
   min-height: 80vh;
   background-image: url("../img/Monstrance-2000w.png");
-  background-attachment: fixed;
   background-size: 80vw;
   background-repeat: no-repeat;
   background-position-x: 183%;
@@ -317,6 +316,7 @@ nav {
 
   @media screen and (max-width: 1200px) {
     background-image: url("../img/Monstrance-2000w.png");
+    background-position-y: 26%;
   }
 
   @media screen and (max-width: 600px), screen and (max-height: 650px) {

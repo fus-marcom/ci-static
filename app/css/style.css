@@ -192,7 +192,6 @@ nav {
 #hero {
   min-height: 80vh;
   background-image: url("../img/Monstrance-2000w.png");
-  background-attachment: fixed;
   background-size: 80vw;
   background-repeat: no-repeat;
   background-position-x: 183%;
@@ -202,7 +201,8 @@ nav {
   padding-bottom: 0; }
   @media screen and (max-width: 1200px) {
     #hero {
-      background-image: url("../img/Monstrance-2000w.png"); } }
+      background-image: url("../img/Monstrance-2000w.png");
+      background-position-y: 26%; } }
   @media screen and (max-width: 600px), screen and (max-height: 650px) {
     #hero {
       display: none; } }
