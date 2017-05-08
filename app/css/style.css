@@ -258,6 +258,18 @@ nav {
   background-repeat: repeat-y;
   background-position: 0% 50%, 100% 50%; }
 
+.interior-page-title {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 40vh; }
+  .interior-page-title h1 {
+    margin: 0 auto; }
+
+#team .interior-page-title {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-6.jpg"); }
+
 .horizontal {
   max-height: 100px;
   cursor: pointer; }
