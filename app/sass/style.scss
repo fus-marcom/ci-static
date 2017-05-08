@@ -28,6 +28,10 @@ $ci-red: #a61f26;
   margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5   {
+  font-family: 'Cinzel', serif;
+}
+
 body {
   background-color: #fafafa;
    display: flex;
@@ -328,7 +332,7 @@ nav {
   }
 
   h1 {
-    font-family: 'Parisienne', cursive;
+    font-family: 'Cinzel', serif;
   }
 }
 
@@ -348,6 +352,7 @@ nav {
         color: #fff;
         text-transform: uppercase;
         font-size: 20px;
+        font-family: 'Cinzel', serif;
       }
     }
   }
