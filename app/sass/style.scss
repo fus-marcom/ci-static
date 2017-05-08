@@ -435,6 +435,23 @@ nav {
   .interior-page-title {
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/campus-6.jpg");
   }
+
+  .team-card-container {
+    width: 95% !important;
+    // If time allows hide and show team cards on title row click
+    // Add an icon to the left of the title to indicate open and closed
+    // .section {
+    //   .row:not(.title-row) {
+    //     display: none;
+    //   }
+    // }
+
+    .section.open {
+      .row {
+        display: block;
+      }
+    }
+  }
 }
 
 .horizontal {
@@ -445,6 +462,7 @@ nav {
     background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/motif1-reverse.png");
     background-repeat: no-repeat;
     background-position: 250% 25%;
+    max-height: 100px;
     span {
       display: block;
     }
