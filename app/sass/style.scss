@@ -65,13 +65,24 @@ nav {
   @media screen and (max-width: 600px) , screen and (max-height: 650px) {
     margin-bottom: 0;
     background-color: #000;
-    height: 88px;
+    height: 98px;
     background-image: url("../img/Monstrance-2000w.png");
     background-size: 30vw;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 46%;
     border-bottom: 4px solid $ci-dark-red;
+  }
+
+  .fus-branding {
+    position: absolute;
+    top: -20px;
+    left: 16px;
+    font-family: 'Cinzel', serif;
+
+    @media screen and (max-width: 600px) , screen and (max-height: 650px) {
+      top: -18px;
+    }
   }
   .page-title {
     line-height: 64px;
@@ -81,21 +92,21 @@ nav {
 
   .button-collapse {
     margin-left: 16px;
-    margin-top: 10px;
+    margin-top: 23px;
     color: #fff;
     padding: 8px;
   }
 
   .brand-logo {
     margin-left: 64px;
-    margin-top: 16px;
+    margin-top: 30px;
 
     @media screen and (max-width: 992px) {
       margin-left: 0;
     }
 
     @media screen and (max-width: 600px) , screen and (max-height: 650px) {
-      margin-top: 8px;
+      margin-top: 19px;
     }
 
     img {
@@ -203,7 +214,7 @@ nav {
   margin-bottom: 0;
   nav {
     background-color: #000;
-    height: 88px;
+    height: 102px;
     background-image: url("../img/Monstrance-2000w.png");
     background-size: 30vw;
     background-repeat: no-repeat;
@@ -214,8 +225,19 @@ nav {
       border-bottom: 4px solid $ci-dark-red;
     }
 
+    .fus-branding {
+      position: absolute;
+      top: -20px;
+      left: 16px;
+      font-family: 'Cinzel', serif;
+
+      @media screen and (max-width: 600px) , screen and (max-height: 650px) {
+        top: -18px;
+      }
+    }
+
     .brand-logo {
-      margin-top: 8px;
+      margin-top: 24px;
       img {
         height: 70px;
       }

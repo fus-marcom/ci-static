@@ -45,31 +45,39 @@ nav {
     nav {
       margin-bottom: 0;
       background-color: #000;
-      height: 88px;
+      height: 98px;
       background-image: url("../img/Monstrance-2000w.png");
       background-size: 30vw;
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: 46%;
       border-bottom: 4px solid #8e1b21; } }
+  nav .fus-branding {
+    position: absolute;
+    top: -20px;
+    left: 16px;
+    font-family: 'Cinzel', serif; }
+    @media screen and (max-width: 600px), screen and (max-height: 650px) {
+      nav .fus-branding {
+        top: -18px; } }
   nav .page-title {
     line-height: 64px;
     font-size: 40px;
     font-weight: 300; }
   nav .button-collapse {
     margin-left: 16px;
-    margin-top: 10px;
+    margin-top: 23px;
     color: #fff;
     padding: 8px; }
   nav .brand-logo {
     margin-left: 64px;
-    margin-top: 16px; }
+    margin-top: 30px; }
     @media screen and (max-width: 992px) {
       nav .brand-logo {
         margin-left: 0; } }
     @media screen and (max-width: 600px), screen and (max-height: 650px) {
       nav .brand-logo {
-        margin-top: 8px; } }
+        margin-top: 19px; } }
     nav .brand-logo img {
       height: 100px; }
       @media screen and (max-width: 600px), screen and (max-height: 650px) {
@@ -135,7 +143,7 @@ nav {
   margin-bottom: 0; }
   .interior nav {
     background-color: #000;
-    height: 88px;
+    height: 102px;
     background-image: url("../img/Monstrance-2000w.png");
     background-size: 30vw;
     background-repeat: no-repeat;
@@ -144,8 +152,16 @@ nav {
     @media screen and (max-width: 992px) {
       .interior nav {
         border-bottom: 4px solid #8e1b21; } }
+    .interior nav .fus-branding {
+      position: absolute;
+      top: -20px;
+      left: 16px;
+      font-family: 'Cinzel', serif; }
+      @media screen and (max-width: 600px), screen and (max-height: 650px) {
+        .interior nav .fus-branding {
+          top: -18px; } }
     .interior nav .brand-logo {
-      margin-top: 8px; }
+      margin-top: 24px; }
       .interior nav .brand-logo img {
         height: 70px; }
 
