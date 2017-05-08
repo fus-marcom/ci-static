@@ -288,16 +288,27 @@ nav {
 
 #team .team-card-container {
   width: 95% !important; }
+  #team .team-card-container .section .title-row {
+    cursor: pointer;
+    margin-bottom: 0; }
+    #team .team-card-container .section .title-row h2 {
+      font-size: 32px; }
+      #team .team-card-container .section .title-row h2 svg {
+        width: 35px;
+        height: 23px;
+        transition: transform .25s; }
   #team .team-card-container .section .row:not(.title-row) {
     display: none; }
   #team .team-card-container .section.open .row {
     display: block; }
+    #team .team-card-container .section.open .row svg {
+      transform: rotate(90deg); }
 
 .horizontal {
   max-height: 100px;
   cursor: pointer; }
   .horizontal .card-content {
-    padding: 14px;
+    padding: 8px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/motif1-reverse.png");
     background-repeat: no-repeat;
     background-position: 250% 25%;

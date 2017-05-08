@@ -472,6 +472,20 @@ nav {
     // If time allows hide and show team cards on title row click
     // Add an icon to the left of the title to indicate open and closed
     .section {
+      .title-row {
+        cursor: pointer;
+        margin-bottom: 0;
+
+        h2 {
+          font-size: 32px;
+          svg {
+            width: 35px;
+            height: 23px;
+            transition: transform .25s;
+          }
+        }
+      }
+
       .row:not(.title-row) {
         display: none;
       }
@@ -480,6 +494,10 @@ nav {
     .section.open {
       .row {
         display: block;
+
+        svg {
+          transform: rotate(90deg);
+        }
       }
     }
   }
@@ -489,7 +507,7 @@ nav {
   max-height: 100px;
   cursor: pointer;
   .card-content {
-    padding: 14px;
+    padding: 8px;
     background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/motif1-reverse.png");
     background-repeat: no-repeat;
     background-position: 250% 25%;
