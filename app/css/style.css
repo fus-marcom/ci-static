@@ -227,6 +227,18 @@ nav {
         text-transform: uppercase;
         font-size: 20px; }
 
+@media screen and (max-width: 600px) {
+  .section .valign-wrapper {
+    flex-direction: column; } }
+
+@media screen and (max-width: 600px) {
+  .section .valign-wrapper .order-1 {
+    order: 1; } }
+
+@media screen and (max-width: 600px) {
+  .section .valign-wrapper .order-2 {
+    order: 2; } }
+
 #san-damiano {
   background-image: url("../img/san-damiano.gif");
   background-attachment: fixed;

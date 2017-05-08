@@ -353,6 +353,26 @@ nav {
   }
 }
 
+.section {
+  .valign-wrapper {
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .order-1 {
+      @media screen and (max-width: 600px) {
+        order: 1;
+      }
+    }
+
+    .order-2 {
+      @media screen and (max-width: 600px) {
+        order: 2;
+      }
+    }
+  }
+}
+
 //Section with black background and parallax San Damiano image
 #san-damiano {
   background-image: url("../img/san-damiano.gif");
