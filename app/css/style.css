@@ -258,6 +258,21 @@ nav {
   background-repeat: repeat-y;
   background-position: 0% 50%, 100% 50%; }
 
+.horizontal {
+  max-height: 100px;
+  cursor: pointer; }
+  .horizontal .card-content {
+    padding: 14px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/motif1-reverse.png");
+    background-repeat: no-repeat;
+    background-position: 250% 25%; }
+    .horizontal .card-content span {
+      display: block; }
+    .horizontal .card-content .team-card-name {
+      font-size: 18px;
+      color: #8e1b21;
+      font-weight: 400; }
+
 .scroll-to-top {
   position: fixed;
   bottom: 0;

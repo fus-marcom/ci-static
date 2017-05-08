@@ -418,6 +418,28 @@ nav {
 //   }
 // }
 
+
+//Team Page
+.horizontal {
+  max-height: 100px;
+  cursor: pointer;
+  .card-content {
+    padding: 14px;
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/motif1-reverse.png");
+    background-repeat: no-repeat;
+    background-position: 250% 25%;
+    span {
+      display: block;
+    }
+
+    .team-card-name {
+      font-size: 18px;
+      color: $ci-dark-red;
+      font-weight: 400;
+    }
+  }
+}
+
 .scroll-to-top {
   position: fixed;
   bottom: 0;
