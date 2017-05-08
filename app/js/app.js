@@ -134,5 +134,8 @@ $('.title-row').click(function() {
   $(this).parent().toggleClass('open').fadeIn(100);
 });
 
+//Init tabs
+$('ul.tabs').tabs();
+
 
 });

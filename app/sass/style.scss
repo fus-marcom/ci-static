@@ -459,7 +459,7 @@ nav {
     margin: 0 auto;
     padding-bottom: 25px;
     background: url("../img/squiggly1.png") no-repeat bottom center;
-    background-size: 40%;
+    background-size: 132px;
     font-size: 45px;
   }
 }
@@ -485,7 +485,39 @@ nav {
 // Resources Page
 #resources {
   .interior-page-title {
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/campus-6.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/campus-11.jpg");
+    background-position-y: -276px;
+  }
+
+  .tabs .tab a:hover, .tabs .tab a.active {
+      color: $ci-dark-red;
+  }
+
+  .tabs .indicator {
+    background-color: #000;
+  }
+
+  .card-content {
+    svg {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      fill: $fus-gold;
+    }
+    span {
+      display: block;
+      color: rgba(0, 0, 0, 0.87);
+    }
+
+    p {
+      color: rgba(0, 0, 0, 0.87);
+    }
+
+    .resource-name {
+      color: $ci-dark-red;
+      font-size: 18px;
+      font-weight: 400;
+    }
   }
 }
 
