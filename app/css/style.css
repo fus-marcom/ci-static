@@ -271,6 +271,18 @@ nav {
   .interior-page-title h1 {
     margin: 0 auto; }
 
+#about .interior-page-title {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-6.jpg"); }
+
+#courses .interior-page-title {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-6.jpg"); }
+
+#events .interior-page-title {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-6.jpg"); }
+
+#resources .interior-page-title {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-6.jpg"); }
+
 #team .interior-page-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-6.jpg"); }
 
