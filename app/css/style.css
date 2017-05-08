@@ -220,16 +220,19 @@ nav {
   padding: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
   .bottom-nav ul {
-    display: inline-block; }
+    display: inline-block;
+    margin: 8px 0; }
     .bottom-nav ul li {
       float: left;
       padding: 4px 16px;
+      padding: 4px 16px 0px 16px;
       line-height: 8px; }
       .bottom-nav ul li a {
         color: #fff;
         text-transform: uppercase;
         font-size: 20px;
-        font-family: 'Cinzel', serif; }
+        font-family: 'Cinzel', serif;
+        cursor: pointer; }
 
 @media screen and (max-width: 600px) {
   .section .valign-wrapper {
@@ -267,9 +270,13 @@ nav {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  min-height: 40vh; }
+  min-height: 39vh; }
   .interior-page-title h1 {
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: url("../img/squiggly1.png") no-repeat bottom center;
+    background-size: 40%;
+    font-size: 45px; }
 
 #about .interior-page-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-11.jpg"); }
