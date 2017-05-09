@@ -45,6 +45,12 @@ h1, h2, h3, h4, h5 {
     background-color: #fff;
     color: #000; }
 
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #8e1b21; }
+
+.tabs .indicator {
+  background-color: #000; }
+
 table.responsive-table {
   width: 100%;
   border-collapse: collapse;
@@ -89,6 +95,12 @@ table.responsive-table {
   table.responsive-table thead {
     border: 0;
     border-right: 1px solid #d0d0d0; }
+
+.card-content {
+  color: rgba(0, 0, 0, 0.85); }
+
+.card-title {
+  color: #8e1b21; }
 
 body {
   background-color: #fafafa;
@@ -385,12 +397,6 @@ nav {
 #resources .interior-page-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-11.jpg");
   background-position-y: -276px; }
-
-#resources .tabs .tab a:hover, #resources .tabs .tab a.active {
-  color: #8e1b21; }
-
-#resources .tabs .indicator {
-  background-color: #000; }
 
 #resources .card-content svg {
   position: absolute;
