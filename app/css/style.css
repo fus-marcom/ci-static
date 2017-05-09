@@ -23,6 +23,73 @@ h1, h2, h3, h4, h5 {
 .wide-container {
   width: 90% !important; }
 
+.sub-heading {
+  display: block;
+  font-size: 26px; }
+
+.btn-inverted {
+  border: solid 2px #000;
+  background-color: transparent;
+  color: #000; }
+  .btn-inverted:hover, .btn-inverted:focus {
+    border: solid 2px #000;
+    background-color: #000;
+    color: #fff; }
+
+.btn-inverted-white {
+  border: solid 2px #fff;
+  background-color: transparent;
+  color: #fff; }
+  .btn-inverted-white:hover, .btn-inverted-white:focus {
+    border: solid 2px #fff;
+    background-color: #fff;
+    color: #000; }
+
+table.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+  position: relative;
+  /* sort out borders */ }
+  table.responsive-table td:empty:before {
+    content: '\00a0'; }
+  table.responsive-table th,
+  table.responsive-table td {
+    margin: 0;
+    vertical-align: top; }
+  table.responsive-table th {
+    text-align: left; }
+  table.responsive-table thead {
+    display: block;
+    float: left; }
+    table.responsive-table thead tr {
+      display: block;
+      padding: 0 10px 0 0; }
+      table.responsive-table thead tr th::before {
+        content: "\00a0"; }
+  table.responsive-table tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap; }
+    table.responsive-table tbody tr {
+      display: inline-block;
+      vertical-align: top; }
+  table.responsive-table th {
+    display: block;
+    text-align: right; }
+  table.responsive-table td {
+    display: block;
+    min-height: 1.25em;
+    text-align: left; }
+  table.responsive-table tr {
+    padding: 0 10px; }
+  table.responsive-table thead {
+    border: 0;
+    border-right: 1px solid #d0d0d0; }
+
 body {
   background-color: #fafafa;
   display: flex;
@@ -295,7 +362,7 @@ nav {
     padding-bottom: 25px;
     background: url("../img/squiggly1.png") no-repeat bottom center;
     background-size: 132px;
-    font-size: 45px; }
+    font-size: 54px; }
 
 #about .interior-page-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-11.jpg"); }
@@ -305,6 +372,9 @@ nav {
 
 #events .interior-page-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-7.jpg"); }
+
+#events h2 {
+  font-size: 48px; }
 
 #resources .interior-page-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-11.jpg");

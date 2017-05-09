@@ -6,6 +6,7 @@ $fus-green: #21412a;
 $fus-gold: #998643;
 $ci-dark-red: #8e1b21;
 $ci-red: #a61f26;
+$table-border-color: #d0d0d0 !default;
 
 .fus-yellow {
   background-color: $fus-yellow;
@@ -35,6 +36,98 @@ h1, h2, h3, h4, h5   {
 .wide-container {
   width: 90% !important;
 }
+
+.sub-heading {
+  display: block;
+  font-size: 26px;
+}
+
+.btn-inverted {
+  border: solid 2px #000;
+  background-color: transparent;
+  color: #000;
+
+  &:hover, &:focus {
+    border: solid 2px #000;
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+.btn-inverted-white {
+  border: solid 2px #fff;
+  background-color: transparent;
+  color: #fff;
+
+  &:hover, &:focus {
+    border: solid 2px #fff;
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+//responsive table for large screens
+
+  table.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+
+    td:empty:before {
+      content: '\00a0';
+    }
+
+    th,
+    td {
+      margin: 0;
+      vertical-align: top;
+    }
+
+    th { text-align: left; }
+    thead {
+      display: block;
+      float: left;
+
+      tr {
+        display: block;
+        padding: 0 10px 0 0;
+
+        th::before {
+          content: "\00a0";
+        }
+      }
+    }
+    tbody {
+      display: block;
+      width: auto;
+      position: relative;
+      overflow-x: auto;
+      white-space: nowrap;
+
+      tr {
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+    th {
+      display: block;
+      text-align: right;
+    }
+    td {
+      display: block;
+      min-height: 1.25em;
+      text-align: left;
+    }
+    tr { padding: 0 10px; }
+
+    /* sort out borders */
+    thead {
+      border: 0;
+      border-right: 1px solid $table-border-color;
+    }
+  }
 
 body {
   background-color: #fafafa;
@@ -464,7 +557,7 @@ nav {
     padding-bottom: 25px;
     background: url("../img/squiggly1.png") no-repeat bottom center;
     background-size: 132px;
-    font-size: 45px;
+    font-size: 54px;
   }
 }
 
@@ -484,6 +577,10 @@ nav {
 #events {
   .interior-page-title {
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/campus-7.jpg");
+  }
+
+  h2 {
+    font-size: 48px;
   }
 }
 // Resources Page
