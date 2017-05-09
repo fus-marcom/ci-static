@@ -370,6 +370,12 @@ nav {
 #courses .interior-page-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-6.jpg"); }
 
+#courses h2 {
+  font-size: 48px; }
+
+#courses h3 {
+  font-size: 32px; }
+
 #events .interior-page-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/campus-7.jpg"); }
 
