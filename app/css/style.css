@@ -20,6 +20,9 @@
 h1, h2, h3, h4, h5 {
   font-family: 'Cinzel', serif; }
 
+.wide-container {
+  width: 90% !important; }
+
 body {
   background-color: #fafafa;
   display: flex;

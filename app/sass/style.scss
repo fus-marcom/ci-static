@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5   {
   font-family: 'Cinzel', serif;
 }
 
+.wide-container {
+  width: 90% !important;
+}
+
 body {
   background-color: #fafafa;
    display: flex;
@@ -530,8 +534,7 @@ nav {
 
   .team-card-container {
     width: 95% !important;
-    // If time allows hide and show team cards on title row click
-    // Add an icon to the left of the title to indicate open and closed
+
     .section {
       .title-row {
         cursor: pointer;
