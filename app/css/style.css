@@ -519,6 +519,8 @@ footer {
   footer .row {
     margin-bottom: 0px;
     margin-top: 10px; }
+  footer a {
+    color: #fff; }
 
 .social a svg {
   fill: #fff;
